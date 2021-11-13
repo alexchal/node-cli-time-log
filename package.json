@@ -1,0 +1,28 @@
+{
+  "name": "cli-time-log",
+  "version": "1.0.0",
+  "description": "A cli tool to help you log your working hours",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexchal/node-cli-time-log.git"
+  },
+  "keywords": [
+    "cli",
+    "node"
+  ],
+  "author": "Alexandros Chalvantzis (chalvantzis12@outlook.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexchal/node-cli-time-log/issues"
+  },
+  "homepage": "https://github.com/alexchal/node-cli-time-log#readme",
+  "dependencies": {
+    "boxen": "^6.2.1",
+    "exceljs": "^4.3.0",
+    "inquirer": "^8.2.0"
+  }
+}
