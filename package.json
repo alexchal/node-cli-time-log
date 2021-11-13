@@ -20,8 +20,11 @@
     "url": "https://github.com/alexchal/node-cli-time-log/issues"
   },
   "homepage": "https://github.com/alexchal/node-cli-time-log#readme",
+  "bin": {
+    "chalex-timesheet": "./bin/index.js"
+  },
   "dependencies": {
-    "boxen": "^6.2.1",
+    "boxen": "^5.1.2",
     "exceljs": "^4.3.0",
     "inquirer": "^8.2.0"
   }
