@@ -55,7 +55,7 @@ const generateExcel = async (data) => {
 
 	worksheetNew.addRows(data);
 
-	console.log("Working hours data", JSON.stringify(data, null, 4));
+	console.table(data);
 
 	await workbook.xlsx.writeFile("LogHours.xlsx");
 };
